@@ -1,7 +1,7 @@
 This app was developer whit react/typescript and a new "vite"(https://vitejs.dev/)
 
-This app take a current location from navigator and acess the Open Weather API. 
-The user can send a name of a another city for know how are the weather like in this city. 
+This app take a current location from navigator and acess the Open Weather API. \
+The user can send a name of a another city for know how are the weather like in this city. \
 And the user can back to the weather in a current location only clicking in the icon.
 
 ### `yarn start`

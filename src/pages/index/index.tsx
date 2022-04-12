@@ -4,8 +4,8 @@ import { Container, Content, Form, Header, Error } from './styles';
 
 interface Geolocation {
   coords: {
-    latitude?: string;
-    longitude?: string;
+    latitude?: number;
+    longitude?: number;
   };
 }
 interface Weather {

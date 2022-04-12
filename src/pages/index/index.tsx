@@ -1,4 +1,4 @@
-import { FormEvent, useEffect, useMemo, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 import api, { params } from '../../services/api';
 import { Container, Content, Form, Header, Error } from './styles';
 
@@ -31,8 +31,6 @@ const Index = () => {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(getWeatherCurrentLocation)
   }, []);
-
-  console.log(weather);
 
   async function getWeatherCurrentLocation({ coords }: Geolocation) {
     const response = await api.get(
